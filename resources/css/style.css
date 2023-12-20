@@ -1423,3 +1423,11 @@ section {
 .nowrap {
   white-space: nowrap;
 }
+
+.btn-launch {
+  background-color: #3498db;
+}
+
+.btn-launch:hover {
+  background-color: #4ca7e4;
+}
