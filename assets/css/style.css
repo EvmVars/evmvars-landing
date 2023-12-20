@@ -693,7 +693,7 @@ section {
 }
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  margin-left: 20px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1413,4 +1413,8 @@ section {
   background: #5faee3;
   color: #fff;
   text-decoration: none;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
