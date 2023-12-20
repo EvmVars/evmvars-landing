@@ -1363,9 +1363,13 @@ section {
 }
 
 #footer .footer-newsletter form input[type=email] {
-  border: 0;
+  border: none;
   padding: 4px 8px;
   width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=email]:focus {
+  outline: 0;
 }
 
 #footer .footer-newsletter form input[type=submit] {
@@ -1386,6 +1390,7 @@ section {
 
 #footer .footer-newsletter form input[type=submit]:hover {
   background: #57aae1;
+  border: none;
 }
 
 #footer .credits {
