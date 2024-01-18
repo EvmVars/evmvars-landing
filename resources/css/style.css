@@ -386,7 +386,7 @@ h6 {
   z-index: 2;
 }
 
-#hero h1 {
+#hero h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -394,11 +394,11 @@ h6 {
   color: #fff;
 }
 
-#hero h1 span {
+#hero h2 span {
   border-bottom: 4px solid #3498db;
 }
 
-#hero h2 {
+#hero h3 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 30px;
   font-size: 24px;
@@ -429,12 +429,12 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero h2 {
     font-size: 30px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #hero h3 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
